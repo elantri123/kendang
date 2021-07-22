@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js"></script>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="shortcut icon" href="img/IMG_0018.JPG" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>GIE</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <script src="https://unpkg.com/three@0.85.0/examples/js/Detector.js"></script>
+    <script src="https://unpkg.com/three@0.85.0/examples/js/libs/stats.min.js"></script>
+    <script src="https://unpkg.com/three@0.85.0/examples/js/controls/OrbitControls.js"></script>
+  </body>
+  <body style="background-color: #4a4a4a; color: white;">
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" id="Perkenalan">Elan Tri Wahyudi</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            
+          <!--
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          -->
+          </div>
+        </div>
+      </nav>
+      <section class="jumbotron text-center">
+          <img ondblclick="alert('2 kali klik')" src="https://i.ibb.co/Tv476ct/001.jpg" alt="gie" width="200" class="rounded-circle img-thumbnail"/>
+          <h1 class=" display-4  text-white">Elan Tri Wahyudi</h1>
+          <p class="lead text-white">GIE</p>
+
+         
+      </section>
+
+      <br><br><br><br><br><br><br>
+      <section id="tentang_saya" style="text-align: center; justify-content: center;">
+        <h1 onclick="alert('1 kali klik')">Tentang Saya</h1>
+        <div class="row">
+          <div class="col-6">
+            <article class='profilsaya'>
+              <div class='judul'>
+                <h4>Tempat / Tanggal Lahir</h4>
+              </div>
+              <div class="descrition">
+                <p>Jember / 16 Juni 2000</p>
+              </div>
+
+             <br>
+            </article>
+            <article class='profilsaya'>
+              <div class='judul'>
+                <h4>Agama</h4>
+              </div>
+              <div class="descrition">
+                <p>Islam</p>
+              </div>
+
+              <br>
+            </article>
+            <article class='profilsaya'>
+              <div class='judul'>
+                <h4>Alamat </h4>
+              </div>
+              <div class="descrition">
+                <p>Jln Teuku Umar Gang Taruna nomer 62</p>
+                <p>RT 01 RW 03 kec kaliwater kab Jember</p>
+              </div>
+              
+            </article>
+          </div>
+          <div class="col-6">
+            <h3>Hobi</h3>
+            <li>Bermain musik</li>
+            <li>traveling</li>
+            <br>
+    <h3 id="organisasi">Pengalaman Organisasi</h3>
+      <article class='Organisasisaya'>
+        <div class='judul'>
+          <li>KMJ (komunitas musisi Jember</li>
+          <li>Sanggar reog simo rogo Jember</li>
+          <li>MAPALA</li>
+        </div>
+
+    </section>
+    <h3 id="kontaksaya" style="text-align: center;">Kontak Me</h3>
+    <li style="text-align: center;">WA : +6285203813182</li>
+    <li style="text-align: center;">IG : @el_an16</li>
+    <li style="text-align: center;">FB : Elan Tri Wahyudi</li>
+</section>
+
+<!-- <script>
+  var a = prompt("Masukan namamu");
+  var b = prompt("Masukan NIM");
+  var c = 3;
+  var d = 2; 
+
+  alert("Selamat Datang "+a);
+  alert("Anda adalah pengunjung ke "+ (b * c + d ) + " pada situs kami")
+
+  const coba = document.getElementById("Perkenalan");
+
+  //mengisi teks ke dalam
+  coba.innerHTML = "Elan Tri Wahyudi";
+  //menghias elemen dengan CSS
+  coba.style.backgroundColor = "grey";
+  coba.style.padding = "10px";
+</script> -->
+    <canvas id="myCanvas"></canvas>
+    <script src="script.js"></script>
+    <script></script>
+          <!-- Carousel -->
+    <h1 id="doc" class="text-center mb-5" style="margin-top: 3rem">Dokumentasi Hobi Saya</h1>
+    <div id="carouselExampleCaptions" class="carousel slide w-50 mx-auto shadow" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active shadow-lg">
+                <img src="https://i.postimg.cc/8PHy1gqB/Whats-App-Image-2021-06-30-at-20-37-37.jpg" class="d-block w-100 mx-auto" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Juara Liga</h5>
+                    <p>Sebuah dokumentasi Juara 2 di liga TI CUP.</p>
+                </div>
+            </div>
+            <div class="carousel-item shadow-lg">
+                <img src="https://i.postimg.cc/gJdtKch5/Whats-App-Image-2021-06-30-at-20-25-03.jpg" class="d-block w-100 mx-auto" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Pelatihan NAVDAR</h5>
+                    <p>Sebuah gambar di mana saya mengikuti pelatihan navigasi darat di mapala 45 surabaya</p>
+                </div>
+            </div>
+            <div class="carousel-item shadow-lg">
+                <img src="https://i.postimg.cc/XYqtmvpy/Whats-App-Image-2021-06-30-at-20-45-00.jpg" class="d-block w-100 mx-auto" alt="..." />
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Tour Guide Kawah Ijen</h5>
+                    <p>Sebuah dokumentasi dimana saya mengantar sebuah client dari kupang.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Carousel End -->
+          
+          <script>
+        //deklarasikan scene beserta lebar dan tinggi scene
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+
+        const scene = new THREE.Scene();
+
+        //deklarasikan kamera
+        const camera = new THREE.PerspectiveCamera(65, width / height, 1, 1000);
+        scene.add(camera);
+
+        camera.position.x = 3;
+        camera.position.y = 1;
+        camera.position.z = 3;
+
+        //deklarasikan renderer dan orbit control
+        const renderer = new THREE.WebGLRenderer({alpha: true});
+        renderer.setSize(width,height);
+        document.body.appendChild(renderer.domElement);
+
+        controls = new THREE.OrbitControls(camera,renderer.domElement);
+
+        //tambahkan lampu
+        const lampu1 = new THREE.DirectionalLight("#FFFFFF",1);
+        scene.add(lampu1);
+        lampu1.position.y = 2;
+        lampu1.position.x = 3;
+
+        const lampu2 = new THREE.AmbientLight("#FFFFFF",0.5);
+        scene.add(lampu2);
+            
+            const lampu3 = new THREE.DirectionalLight("#FFFFFF",1);
+        scene.add(lampu3);
+        lampu3.position.y = 2;
+        lampu3.position.x = -3;
+
+            
+            //tambahkan silinder untuk base kendang
+        const silinder_A = new THREE.CylinderGeometry(
+            1,  //radiusTop (luas atas),
+            0.9,  //radiusBottom (luas bawah),
+            2.5,  //height (tinggi),
+            21  //radialSegments
+        );
+
+        //tambahkan silinder untuk rotan kendang
+        const openEnded = true; //(openEnded true = ujung silinder terbuka)
+
+        const silinder_B = new THREE.CylinderGeometry(
+            1.01,  //radiusTop (luas atas),
+            0.9,  //radiusBottom (luas bawah),
+            2.5,  //height (tinggi),
+            21,  //radialSegments,
+            1, //heightSegments,
+            openEnded
+        );
+
+        //tambahkan silinder untuk ujung kendang dan juga kulit kendang
+        const silinder_C = new THREE.CylinderGeometry(
+            1,  //radiusTop (luas atas),
+            1,  //radiusBottom (luas bawah),
+            0.095,  //height (tinggi),
+            21  //radialSegments
+        );
+
+        const thetaStart = Math.PI * 0.00;  //titik mulai silinder
+        const thetaLength = Math.PI * 0.5; //persentase bentuk silinder, Math.PI * 2.00 = silinder penuh,
+        //Di bawah 2.00 silinder makin berkurang persentasenya/makin tidak penuh
+
+        //tambah silinder untuk foto yang mengelilingi kendang
+        const silinder_D = new THREE.CylinderGeometry(
+            1.5,  //radiusTop (luas atas),
+            1.5,  //radiusBottom (luas bawah),
+            1.5,  //height (tinggi),
+            25,  //radialSegments,
+            1, //heightSegments,
+            openEnded,
+            thetaStart,
+            thetaLength
+        );
+
+        //material kayu kendang
+        const kayu_kendang = new THREE.MeshPhongMaterial({
+            color: "#3D2806",
+            shininess: 77, //tingkat kekilauan material, makin besar makin kinclong
+        });
+
+        //material rotan
+        const rotan = new THREE.MeshPhongMaterial({
+            color: "#F7DC6F",
+            shininess: 65,
+            wireframe: true,
+        });
+
+        const rotan2 = new THREE.MeshPhongMaterial({
+            color: "#F7DC6F",
+            shininess: 65,
+            wireframe: false,
+        });
+
+        //material foto 1
+        //NB: Gentinen foto-fotomu (untuk codepen iso nggae link foto sing wes mok upload ndek postimage)
+        const texture1 = new THREE.TextureLoader().load( 'https://i.postimg.cc/cLrB4ppT/1604683607117.png' );
+        const foto1 = new THREE.MeshPhongMaterial({
+            map: texture1,
+            shininess: 15, //tingkat kekilauan material, makin besar makin kinclong
+        });
+
+        //material foto 2
+        const texture2 = new THREE.TextureLoader().load( 'https://i.postimg.cc/g0752ytL/1605146579635.png' );
+        const foto2 = new THREE.MeshPhongMaterial({
+            map: texture2,
+            shininess: 15, //tingkat kekilauan material, makin besar makin kinclong
+        });
+
+        //material foto 3
+        const texture3 = new THREE.TextureLoader().load( 'https://i.postimg.cc/bJZVtGSD/IMG-0057.jpg' );
+        const foto3 = new THREE.MeshPhongMaterial({
+            map: texture3,
+            shininess: 15, //tingkat kekilauan material, makin besar makin kinclong
+            side: THREE.DoubleSide //secara bawaan, material hanya tampak bagian depan/luarnya saja sedangkan bagian dalam/bagian belakangnya tidak terlihat/transparan,
+            //jika ditambahkan side: THREE.DoubleSide, maka material akan tampak luar dalam/depan belakang.
+        });
+
+        //material foto 4
+        const texture4 = new THREE.TextureLoader().load( 'https://i.postimg.cc/wjwxFP3K/20210321-233901.jpg' );
+        const foto4 = new THREE.MeshPhongMaterial({
+            map: texture4,
+            shininess: 15, //tingkat kekilauan material, makin besar makin kinclong
+            side: THREE.DoubleSide //secara bawaan, material hanya tampak bagian depan/luarnya saja sedangkan bagian dalam/bagian belakangnya tidak terlihat/transparan,
+            //jika ditambahkan side: THREE.DoubleSide, maka material akan tampak luar dalam/depan belakang.
+        });
+
+        //base kendang
+        const body_kendang = new THREE.Mesh(silinder_A,kayu_kendang); //body_kendang merupakan silinder_A yang diberi material kayu_kendang
+        scene.add(body_kendang); //menambahkan objek body_kendang ke dalam scene
+
+        //tali rotan
+        const tali_rotan = new THREE.Mesh(silinder_B,rotan);
+        scene.add(tali_rotan);
+
+        //ujung atas dan ujung bawah kendang
+        const ujung_atas = new THREE.Mesh(silinder_C,rotan2);
+        scene.add(ujung_atas);
+
+        ujung_atas.position.y = 1.25;
+
+        ujung_atas.scale.x = 1.025;
+        ujung_atas.scale.z = 1.025;
+
+        const ujung_bawah = new THREE.Mesh(silinder_C,rotan2);
+        scene.add(ujung_bawah);
+
+        ujung_bawah.position.y = -1.25;
+
+        ujung_bawah.scale.x = 0.925;
+        ujung_bawah.scale.z = 0.925;
+
+        //kulit 1
+        const kulit_atas = new THREE.Mesh(silinder_C,foto1);
+        scene.add(kulit_atas);
+
+        kulit_atas.position.y = 1.26;
+
+        kulit_atas.scale.x = 0.9;
+        kulit_atas.scale.z = 0.9;
+        //kulit 2
+        const kulit_bawah = new THREE.Mesh(silinder_C,foto2);
+        scene.add(kulit_bawah);
+
+        kulit_bawah.position.y = -1.26;
+
+        kulit_bawah.scale.x = 0.8;
+        kulit_bawah.scale.z = 0.8;
+
+        //foto portofolio yang mengelilingi kendang
+        const portofolio1 = new THREE.Mesh(silinder_D,foto3);
+        scene.add(portofolio1);
+
+        const portofolio2 = new THREE.Mesh(silinder_D,foto4);
+        scene.add(portofolio2);
+
+        //memutar posisi portofolio2 sebesar 280 derajat
+        portofolio2.rotation.y = 280;
+
+        window.addEventListener('resize', function(){
+            renderer.setSize(width,height);
+            camera.aspect = width / height;
+            camera.updateProjectionMatrix();
+        })
+
+        function update(){
+            //animasi kendang
+            body_kendang.rotation.y += 0.01; //animasi rotasi yang porosnya berdasarkan sumbu y
+            tali_rotan.rotation.y += 0.01;
+            ujung_atas.rotation.y += 0.01;
+            ujung_bawah.rotation.y += 0.01;
+            kulit_atas.rotation.y += 0.01;
+            kulit_bawah.rotation.y += 0.01;
+            //optional experiment: coba ganti semua rotation.y menjadi rotation.x atau rotation.z
+            //lihat apa yang terjadi :v
+
+            //animasi foto-foto portofolio
+            portofolio1.rotation.y -= 0.01;
+            portofolio2.rotation.y -= 0.01;
+
+            requestAnimationFrame(update);
+            renderer.render(scene,camera);
+        }
+
+        update();
+    </script>
+  </body>
+  
+  <footer style="text-align: center;">
+    <p>Created by: <a>Gie</a>  /  2021 </p>
+  </footer>
+</html>
